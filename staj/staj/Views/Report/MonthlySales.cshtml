@@ -1,0 +1,158 @@
+﻿@model List<stajApi.Models.Dtos.MonthlyReportDto>
+
+@using Newtonsoft.Json
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Satış Raporu";
+    var selectedChartType = HttpContextAccessor.HttpContext.Request.Query["chartType"].ToString();
+    var selectedMonth = HttpContextAccessor.HttpContext.Request.Query["month"].ToString();
+    var selectedYear = HttpContextAccessor.HttpContext.Request.Query["year"].ToString();
+}
+
+<div class="container py-5">
+    <div class="report-box shadow-lg p-5" style="border-radius: 24px; background-color: rgba(255,255,255,0.90);">
+        <div class="text-center mb-4">
+            <h2 class="fw-bold">📈 Satış Raporu</h2>
+            <p class="text-muted">Grafik türü seçin ve filtreleme yaparak satış verilerini görüntüleyin.</p>
+        </div>
+
+        <!-- Grafik Türü Seçimi -->
+        <form method="get" class="mb-4">
+            <div class="row g-3 justify-content-center align-items-end">
+                <div class="col-md-4">
+                    <label for="chartType" class="form-label fw-semibold">Grafik Türü</label>
+                    <select class="form-select" id="chartType" name="chartType" onchange="updateFilterVisibility()">
+                        @{
+                            var monthly = selectedChartType == "monthly" ? "selected=\"selected\"" : "";
+                            var yearly = selectedChartType == "yearly" ? "selected=\"selected\"" : "";
+                        }
+                        @Html.Raw($"<option value=\"monthly\" {monthly}>Aylık</option>")
+                        @Html.Raw($"<option value=\"yearly\" {yearly}>Yıllık</option>")
+                    </select>
+                </div>
+            </div>
+
+            <!-- Aylık Filtre -->
+            <div id="monthlyFilter" class="row g-3 mt-3 justify-content-center align-items-end">
+                <div class="col-md-4">
+                    <label for="month" class="form-label fw-semibold">Ay</label>
+                    <select class="form-select" id="month" name="month">
+                        @for (int i = 1; i <= 12; i++)
+                        {
+                            var ayAdi = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i);
+                            var selected = selectedMonth == i.ToString() ? "selected=\"selected\"" : "";
+                            @Html.Raw($"<option value=\"{i}\" {selected}>{ayAdi}</option>")
+                        }
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="year" class="form-label fw-semibold">Yıl</label>
+                    <select class="form-select" id="year" name="year">
+                        @for (int y = DateTime.Now.Year; y >= 2020; y--)
+                        {
+                            var selected = selectedYear == y.ToString() ? "selected=\"selected\"" : "";
+                            @Html.Raw($"<option value=\"{y}\" {selected}>{y}</option>")
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <!-- Yıllık Filtre -->
+            <div id="yearlyFilter" class="row g-3 mt-3 justify-content-center align-items-end" style="display:none;">
+                <div class="col-md-4">
+                    <label for="yearOnly" class="form-label fw-semibold">Yıl</label>
+                    <select class="form-select" id="yearOnly" name="year">
+                        @for (int y = DateTime.Now.Year; y >= 2020; y--)
+                        {
+                            var selected = selectedYear == y.ToString() ? "selected=\"selected\"" : "";
+                            @Html.Raw($"<option value=\"{y}\" {selected}>{y}</option>")
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">Filtrele</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- Grafik Alanı -->
+        @if (Model == null || !Model.Any())
+        {
+            <div class="alert alert-warning text-center">⚠️ Seçilen kriterler için veri bulunamadı.</div>
+        }
+        else
+        {
+            <div class="p-3">
+                <canvas id="salesChart" height="120"></canvas>
+                <pre>@ViewBag.YearlyData</pre>
+
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+
+        function updateFilterVisibility() {
+            const type = document.getElementById('chartType').value;
+
+            document.getElementById('monthlyFilter').style.display = type === 'monthly' ? 'flex' : 'none';
+            document.getElementById('yearlyFilter').style.display = type === 'yearly' ? 'flex' : 'none';
+        }
+
+        window.addEventListener('DOMContentLoaded', updateFilterVisibility);
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const chartType = "@HttpContextAccessor.HttpContext.Request.Query["chartType"]";
+        let chartData = [];
+                console.log("chartType:", chartType);
+        console.log("chartData:", chartData);
+
+
+        if (chartType === "yearly") {
+            chartData = @Html.Raw(ViewBag.YearlyData ?? "[]");
+        } else {
+            chartData = @Html.Raw(JsonConvert.SerializeObject(Model));
+        }
+
+                const labels = chartData.map(x => x.label || `${x.Month ?? ''}`); // sadece ay varsa yeterli
+                const sales = chartData.map(x => x.TotalSales);
+                const revenue = chartData.map(x => x.TotalRevenue);
+
+
+        if (labels.length > 0) {
+            const ctx = document.getElementById('salesChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Satış Adedi',
+                            data: sales,
+                            borderColor: 'rgba(0, 123, 255, 1)',
+                            tension: 0.3,
+                            pointBackgroundColor: 'rgba(0,123,255,1)',
+                            pointRadius: 5
+                        },
+                        {
+                            label: 'Toplam Gelir (₺)',
+                            data: revenue,
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            tension: 0.3,
+                            pointBackgroundColor: 'rgba(255,99,132,1)',
+                            pointRadius: 5
+                        }
+                    ]
+                }
+            });
+        }
+    </script>
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "staj", "staj\staj.csproj", "{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stajApi", "stajApi\stajApi.csproj", "{70DEE446-58BB-4169-B729-9295A1449E0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DEE446-58BB-4169-B729-9295A1449E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DEE446-58BB-4169-B729-9295A1449E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DEE446-58BB-4169-B729-9295A1449E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DEE446-58BB-4169-B729-9295A1449E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82D458A9-BA73-4E7F-80D6-324DC7AF7059}
+	EndGlobalSection
+EndGlobal

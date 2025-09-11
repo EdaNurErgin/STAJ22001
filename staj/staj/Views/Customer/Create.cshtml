@@ -1,0 +1,60 @@
+﻿
+@model stajApi.Models.Customer
+
+@{
+    ViewData["Title"] = "Yeni Müşteri Ekle";
+}
+
+<div class="container mt-5">
+<div class="text-center bg-light py-4 rounded shadow mb-4">
+    <h2 class="m-0 fw-bold fs-3 text-primary">
+        <i class=" me-2"></i>👥Yeni Müşteri Ekle
+    </h2>
+    <p class="text-muted mt-2 mb-0">Yeni müşteri bilgilerini girin ve kaydedin.</p>
+</div>
+</div>
+
+<form asp-action="Create" method="post" class="container" style="max-width: 500px;">
+    <div class="mb-3">
+        <label asp-for="FullName" class="form-label">Ad Soyad</label>
+        <input asp-for="FullName" class="form-control" placeholder="Adınızı ve soyadınızı girin" required />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PhoneNumber" class="form-label">Telefon</label>
+        <input asp-for="PhoneNumber" class="form-control" placeholder="Telefon numaranızı girin" required />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ShippingAddress" class="form-label">Teslimat Adresi</label>
+        <input asp-for="ShippingAddress" class="form-control" placeholder="Teslimat adresini girin" required />
+        <span asp-validation-for="ShippingAddress" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="BillingAddress" class="form-label">Fatura Adresi</label>
+        <input asp-for="BillingAddress" class="form-control" placeholder="Fatura adresini girin" required />
+        <span asp-validation-for="BillingAddress" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">Şifre</label>
+        <input asp-for="Password" class="form-control" type="password" placeholder="Şifre belirleyin" required />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary btn-lg">💾 Kaydet</button>
+    </div>
+</form>
+
+<style>
+    form.container {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+</style>

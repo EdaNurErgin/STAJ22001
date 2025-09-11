@@ -1,0 +1,125 @@
+﻿@model List<stajApi.Models.Product>
+
+@{
+    ViewData["Title"] = "Ürün Listesi";
+}
+
+<div class="container mt-5">
+
+    <!-- Başlık Kutusu -->
+    <div class="text-center bg-light py-4 rounded shadow mb-4">
+        <h2 class="m-0 fw-bold fs-3 text-primary">
+            📦 Ürün Listesi
+        </h2>
+        <p class="text-muted mt-2 mb-0">Sistemde kayıtlı ürünleri görüntüleyebilirsiniz.</p>
+    </div>
+
+    <!-- Ürün Yoksa -->
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-light border text-center py-4 shadow-sm">
+            <h5 class="text-muted mb-0">🚫 Henüz kayıtlı ürün bulunmamaktadır.</h5>
+        </div>
+    }
+    else
+    {
+        <!-- Ürün Tablosu -->
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle m-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="text-nowrap">🖼️ Resim</th>
+                                <th class="text-nowrap">📦 Ürün Adı</th>
+                                <th class="text-nowrap">💲 Fiyat</th>
+                                <th class="text-nowrap">📦 Stok</th>
+                                <th class="text-center text-nowrap">⚙️ İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var product in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @if (product.ImageData != null)
+                                        {
+                                            var base64 = Convert.ToBase64String(product.ImageData);
+                                            <img src="data:image/png;base64,@base64"
+                                                 width="80" height="80"
+                                                 style="object-fit: contain; border: 1px solid #ccc; padding: 2px; border-radius: 6px;" />
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">Yok</span>
+                                        }
+                                    </td>
+                                    <td>@product.Name</td>
+                                    <td>@string.Format("{0:C}", product.Price)</td>
+                                    <td>@product.Stock</td>
+                                    <td class="text-center">
+                                        <div class="btn-group" role="group">
+                                            <a href="/Product/Edit/@product.Id"
+                                               class="btn btn-sm btn-outline-primary"
+                                               title="Düzenle">
+                                                ✏️
+                                            </a>
+                                            <a href="/Product/Delete/@product.Id"
+                                               class="btn btn-sm btn-outline-danger"
+                                               onclick="return confirm('Bu ürünü silmek istediğinize emin misiniz?');"
+                                               title="Sil">
+                                                🗑️
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- Yeni Ürün Ekle Butonu -->
+    <div class="text-end mt-4">
+        <a class="btn btn-success btn-lg shadow-sm" href="/Product/Create">
+            ➕ Yeni Ürün Ekle
+        </a>
+    </div>
+</div>
+
+<!-- Stil -->
+<style>
+    h2 {
+        letter-spacing: 1px;
+    }
+
+    .card {
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    table thead th {
+        font-weight: 600;
+    }
+
+    table tbody tr:nth-child(even) {
+        background-color: #f8f9fa;
+    }
+
+    table tbody tr:hover {
+        background-color: #e9f5ff;
+    }
+
+    .btn-outline-primary,
+    .btn-outline-danger {
+        border-width: 1.5px;
+        padding: 0.3rem 0.6rem;
+        font-size: 0.9rem;
+    }
+
+    img {
+        border-radius: 4px;
+    }
+</style>

@@ -1,0 +1,98 @@
+﻿
+
+
+@model stajApi.Models.Order
+
+<div class="container mt-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">Sipariş Detayı</h3>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Sipariş ID:</dt>
+                <dd class="col-sm-9">@Model.Id</dd>
+
+                <dt class="col-sm-3">Sipariş Tarih:</dt>
+                <dd class="col-sm-9">@Model.OrderDate.ToShortDateString()</dd>
+
+                <dt class="col-sm-3"> Sipariş Durum:</dt>
+                <dd class="col-sm-9 text-@((Model.IsCompleted ? "success" : "warning")) fw-bold">
+                    @(Model.IsCompleted ? "Tamamlandı" : "Bekliyor")
+                </dd>
+
+                @* <dt class="col-sm-3">Kullanıcı:</dt>
+                <dd class="col-sm-9">@Model.User?.Username</dd> *@
+
+                <dt class="col-sm-3">Müşteri İsmi:</dt>
+                <dd class="col-sm-9">@Model.Customer?.FullName</dd>
+                <dt class="col-sm-3">Müşteri Telefon Numarası:</dt>
+                <dd class="col-sm-9">@Model.Customer?.PhoneNumber</dd>
+                <dt class="col-sm-3">Müşteri Fatura Adresi:</dt>
+                <dd class="col-sm-9">@Model.Customer?.BillingAddress</dd>
+                <dt class="col-sm-3">Müşteri Teslimat Adresi:</dt>
+                <dd class="col-sm-9">@Model.Customer?.ShippingAddress</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="card shadow-sm mt-4">
+        <div class="card-header bg-secondary text-white">
+            <h4 class="mb-0">Ürünler</h4>
+        </div>
+        <div class="card-body">
+            @if (Model.OrderDetails != null && Model.OrderDetails.Any())
+            {
+               <table class="table table-bordered table-hover">
+    <thead class="table-light">
+        <tr>
+            <th>Ürün Adı</th>
+            <th>Fiyat</th>
+            <th>Adet</th>
+            <th>Toplam</th>
+            <th>Görsel</th> @* Sadece yeni sütun, en sona eklendi *@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var detail in Model.OrderDetails)
+        {
+            <tr>
+                <td>@detail.Product?.Name</td>
+                <td>
+                    @(
+                        detail.Product?.Price != null
+                        ? detail.Product.Price.Value.ToString("C", new System.Globalization.CultureInfo("tr-TR"))
+                        : "₺0,00"
+                    )
+                </td>
+                <td>@detail.Quantity</td>
+                <td>
+                    @(
+                        ((detail.Product?.Price ?? 0) * detail.Quantity)
+                        .ToString("C", new System.Globalization.CultureInfo("tr-TR"))
+                    )
+                </td>
+                <td>
+                    @if (detail.Product?.ImageData != null)
+                    {
+                        var base64 = Convert.ToBase64String(detail.Product.ImageData);
+                        <img src="data:image/png;base64,@base64" style="max-width: 100px; max-height: 100px;" class="img-fluid rounded" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">Resim yok</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+            }
+            else
+            {
+                <div class="alert alert-warning">Bu siparişe ait ürün bulunmamaktadır.</div>
+            }
+        </div>
+    </div>
+</div>

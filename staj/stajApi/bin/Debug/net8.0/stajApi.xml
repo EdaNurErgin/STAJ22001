@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>stajApi</name>
+    </assembly>
+    <members>
+        <member name="T:stajApi.Controllers.AuthApiController">
+            <summary>
+            login ile ilgili işlemleri içerir
+            </summary>
+        </member>
+        <member name="M:stajApi.Controllers.AuthApiController.Login(LoginViewModel)">
+            <summary>
+            Kullanıcı girişi yapar (User tablosu için).
+            </summary>
+            <param name="model">Kullanıcı adı ve şifre</param>
+            <returns>JWT token</returns>
+        </member>
+        <member name="M:stajApi.Controllers.AuthApiController.GenerateJwtToken(System.Int32,System.String,System.String)">
+            <summary>
+            JWT token üretir (internal kullanım).
+            </summary>
+            <param name="id">Kullanıcı veya müşteri ID</param>
+            <param name="name">Ad veya kullanıcı adı</param>
+            <param name="role">Rol (User veya Customer)</param>
+            <returns>JWT string token</returns>
+        </member>
+        <member name="M:stajApi.Controllers.AuthApiController.CustomerLogin(stajApi.Models.CustomerLoginViewModel)">
+            <summary>
+            Müşteri girişi yapar (Customer tablosu için).
+            </summary>
+            <param name="model">Telefon numarası ve şifre</param>
+            <returns>JWT token ve müşteri ID</returns>
+        </member>
+        <member name="M:stajApi.Controllers.AuthApiController.Deneme">
+            <summary>
+            Test amacıyla basit bir veri döner (authorization gerekmez).
+            </summary>
+            <returns>Ürün listesi</returns>
+        </member>
+        <member name="T:stajApi.Controllers.CustomerApiController">
+            <summary>
+            Müşteriyle alakalı işlemleri içerir
+            </summary>
+        </member>
+        <member name="M:stajApi.Controllers.CustomerApiController.AddCustomer(stajApi.Models.Customer)">
+            <summary>
+            Yeni müşteri ekler
+            </summary>
+            <param name="customer">Müşteri bilgileri</param>
+            <returns>Oluşturulan müşteri</returns>
+        </member>
+        <member name="M:stajApi.Controllers.CustomerApiController.GetCustomerById(System.Int32)">
+            <summary>
+            Belirli bir müşteriyi getirir
+            </summary>
+            <param name="id">Müşteri ID</param>
+            <returns>Müşteri detayları</returns>
+        </member>
+        <member name="M:stajApi.Controllers.CustomerApiController.UpdateCustomer(System.Int32,stajApi.Models.Customer)">
+            <summary>
+            Müşteri bilgilerini günceller
+            </summary>
+            <param name="id">Müşteri ID</param>
+            <param name="customer">Yeni müşteri bilgileri</param>
+            <returns>Durum sonucu</returns>
+        </member>
+        <member name="M:stajApi.Controllers.CustomerApiController.GetAllCustomers">
+            <summary>
+            Tüm müşterileri listeler
+            </summary>
+            <returns>Müşteri listesi</returns>
+        </member>
+        <member name="M:stajApi.Controllers.CustomerApiController.DeleteCustomer(System.Int32)">
+            <summary>
+            Müşteri siler
+            </summary>
+            <param name="id">Silinecek müşteri ID</param>
+            <returns>Durum sonucu</returns>
+        </member>
+        <member name="T:stajApi.Controllers.MessageApiController">
+            <summary>
+            mesaj gonderme ile ilgili işlemleri içerir
+            </summary>
+        </member>
+        <member name="T:stajApi.Controllers.OrderApiController">
+            <summary>
+            Siparişlerle ilgili işlemleri içerir.
+            </summary>
+        </member>
+        <member name="M:stajApi.Controllers.OrderApiController.GetAll">
+            <summary>
+            Tüm siparişleri detaylı şekilde listeler.
+            </summary>
+            <returns>Sipariş listesi</returns>
+        </member>
+        <member name="M:stajApi.Controllers.OrderApiController.GetById(System.Int32)">
+            <summary>
+            Belirli bir siparişin detaylarını getirir.
+            </summary>
+            <param name="id">Sipariş ID</param>
+            <returns>Sipariş detayı</returns>
+        </member>
+        <member name="M:stajApi.Controllers.OrderApiController.Create(stajApi.Models.Order)">
+            <summary>
+            Yeni sipariş oluşturur.
+            </summary>
+            <param name="order">Sipariş bilgisi</param>
+            <returns>Oluşturulan sipariş</returns>
+        </member>
+        <member name="M:stajApi.Controllers.OrderApiController.CompleteOrder(System.Int32)">
+            <summary>
+            Siparişi tamamlanmış olarak işaretler.
+            </summary>
+            <param name="id">Sipariş ID</param>
+            <returns>Durum sonucu</returns>
+        </member>
+        <member name="M:stajApi.Controllers.OrderApiController.GetOrdersByCustomer(System.Int32)">
+            <summary>
+            Belirli bir müşteriye ait siparişleri listeler.
+            </summary>
+            <param name="customerId">Müşteri ID</param>
+            <returns>Sipariş listesi</returns>
+        </member>
+        <member name="T:stajApi.Controllers.ProductApiController">
+            <summary>
+            Ürünlerle ilgili işlemleri içerir.
+            </summary>
+        </member>
+        <member name="M:stajApi.Controllers.ProductApiController.GetAll">
+            <summary>
+            Tüm ürünleri listeler.
+            </summary>
+            <returns>Ürün listesi</returns>
+        </member>
+        <member name="M:stajApi.Controllers.ProductApiController.GetById(System.Int32)">
+            <summary>
+            Belirli bir ürünü getirir.
+            </summary>
+            <param name="id">Ürün ID</param>
+            <returns>Ürün bilgisi</returns>
+        </member>
+        <member name="M:stajApi.Controllers.ProductApiController.Update(System.Int32,stajApi.Models.Product)">
+            <summary>
+            Ürünü günceller.
+            </summary>
+            <param name="id">Ürün ID</param>
+            <param name="product">Güncellenmiş ürün bilgisi</param>
+            <returns>Durum sonucu</returns>
+        </member>
+        <member name="T:stajApi.Controllers.ReportApiController">
+            <summary>
+            Satış raporlarıyla ilgili işlemleri içerir.
+            </summary>
+        </member>
+        <member name="M:stajApi.Controllers.ReportApiController.GetMonthlySalesReport">
+            <summary>
+            Aylık satış raporunu getirir.
+            </summary>
+            <returns>Yıl ve aya göre toplam satış adedi ve toplam gelir</returns>
+        </member>
+        <member name="M:stajApi.Controllers.ReportApiController.GetYearlySalesReport(System.Int32)">
+            <summary>
+            Belirli bir yıl için aylık satış raporu verir.
+            </summary>
+            <param name="year">Yıl (örn: 2025)</param>
+            <returns>12 ay boyunca toplam satış ve gelir bilgisi</returns>
+        </member>
+        <member name="T:stajApi.Controllers.UserApiController">
+            <summary>
+            Yonetici ile ilgili işlemleri içerir.
+            </summary>
+        </member>
+        <member name="T:stajApi.Migrations.CleanStart">
+            <inheritdoc />
+        </member>
+        <member name="M:stajApi.Migrations.CleanStart.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:stajApi.Migrations.CleanStart.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:stajApi.Migrations.CleanStart.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:stajApi.Migrations.ekle">
+            <inheritdoc />
+        </member>
+        <member name="M:stajApi.Migrations.ekle.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:stajApi.Migrations.ekle.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:stajApi.Migrations.ekle.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

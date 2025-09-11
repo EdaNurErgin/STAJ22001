@@ -1,0 +1,48 @@
+﻿
+
+@model stajApi.Models.Product
+<div class="container mt-5">
+<div class="text-center bg-light py-4 rounded shadow mb-4">
+    <h2 class="m-0 fw-bold fs-3 text-primary">
+        <i class="bi bi-box-seam-fill me-2"></i>Yeni Ürün Ekle
+    </h2>
+    <p class="text-muted mt-2 mb-0">Yeni ürün bilgilerini girin ve kaydedin.</p>
+</div>
+</div>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data" class="container" style="max-width: 500px;">
+    <div class="mb-3">
+        <label for="Name" class="form-label">Ürün Adı</label>
+        <input type="text" id="Name" name="Name" class="form-control" value="@Model?.Name" placeholder="Ürün adını girin" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="Price" class="form-label">Fiyat</label>
+        <input type="number" step="0.01" id="Price" name="Price" class="form-control" value="@Model?.Price" placeholder="Ürün fiyatını girin" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="Stock" class="form-label">Stok</label>
+        <input type="number" id="Stock" name="Stock" class="form-control" value="@Model?.Stock" placeholder="Stok miktarını girin" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="Image" class="form-label">Ürün Görseli</label>
+        <input type="file" id="Image" name="Image" class="form-control" accept="image/*" />
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary btn-lg">💾 Kaydet</button>
+    </div>
+</form>
+
+<style>
+    form.container {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+

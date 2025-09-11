@@ -1,0 +1,1133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\controllers\\orderapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\controllers\\orderapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\controllers\\messageapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\controllers\\messageapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\wwwroot\\images\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\wwwroot\\images\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\models\\customerloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\models\\customerloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\hubs\\customuseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\hubs\\customuseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\controllers\\userapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\controllers\\userapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\controllers\\reportapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\controllers\\reportapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\report\\monthlysales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\report\\monthlysales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\home\\controlpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\home\\controlpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\controllers\\ornek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\controllers\\ornek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\stajapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\stajapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\stajapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\stajapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\dtos\\monthlyreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\dtos\\monthlyreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\dtos\\yearlyreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\dtos\\yearlyreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\staj\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1B1346B-392D-49EE-9F23-FECB8EF34BFD}|staj\\staj.csproj|solutionrelative:staj\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|c:\\users\\eda ergin\\source\\repos\\staj\\stajapi\\migrations\\20250714081607_ekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DEE446-58BB-4169-B729-9295A1449E0A}|stajApi\\stajApi.csproj|solutionrelative:stajapi\\migrations\\20250714081607_ekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 229,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "staj\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "staj\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T20:12:56.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "staj\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "staj\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:53:49.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\CustomerApiController.cs",
+              "RelativeDocumentMoniker": "stajApi\\Controllers\\CustomerApiController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\CustomerApiController.cs",
+              "RelativeToolTip": "stajApi\\Controllers\\CustomerApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T09:47:46.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "stajApi\\Controllers\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "stajApi\\Controllers\\BaseApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T09:45:13.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\MessageApiController.cs",
+              "RelativeDocumentMoniker": "stajApi\\Controllers\\MessageApiController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\MessageApiController.cs",
+              "RelativeToolTip": "stajApi\\Controllers\\MessageApiController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAACQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:05:21.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\OrderApiController.cs",
+              "RelativeDocumentMoniker": "stajApi\\Controllers\\OrderApiController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\OrderApiController.cs",
+              "RelativeToolTip": "stajApi\\Controllers\\OrderApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T09:46:15.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "staj\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "staj\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T11:38:05.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "staj\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "staj\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T08:50:26.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "staj\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "staj\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T08:45:57.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "staj\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "staj\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T09:01:25.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "staj\\Controllers\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\BaseApiController.cs*",
+              "RelativeToolTip": "staj\\Controllers\\BaseApiController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T08:46:11.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "logo.png",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\wwwroot\\images\\logo.png",
+              "RelativeDocumentMoniker": "staj\\wwwroot\\images\\logo.png",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\wwwroot\\images\\logo.png",
+              "RelativeToolTip": "staj\\wwwroot\\images\\logo.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-09-11T20:12:00.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "staj\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "staj\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-18T09:51:24.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "staj\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\UserController.cs",
+              "RelativeToolTip": "staj\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T11:38:42.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "staj\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "staj\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-18T09:51:20.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerLoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\CustomerLoginViewModel.cs",
+              "RelativeDocumentMoniker": "stajApi\\Models\\CustomerLoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\CustomerLoginViewModel.cs",
+              "RelativeToolTip": "stajApi\\Models\\CustomerLoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:38:30.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "stajApi\\Models\\ChatMessage.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "stajApi\\Models\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:40:13.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Program.cs",
+              "RelativeDocumentMoniker": "stajApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Program.cs",
+              "RelativeToolTip": "stajApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T07:11:51.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MessageHub.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Hubs\\MessageHub.cs",
+              "RelativeDocumentMoniker": "stajApi\\Hubs\\MessageHub.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Hubs\\MessageHub.cs",
+              "RelativeToolTip": "stajApi\\Hubs\\MessageHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:40:25.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomUserIdProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Hubs\\CustomUserIdProvider.cs",
+              "RelativeDocumentMoniker": "stajApi\\Hubs\\CustomUserIdProvider.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Hubs\\CustomUserIdProvider.cs",
+              "RelativeToolTip": "stajApi\\Hubs\\CustomUserIdProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T07:11:46.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "stajApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "stajApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:01:43.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\UserApiController.cs",
+              "RelativeDocumentMoniker": "stajApi\\Controllers\\UserApiController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\UserApiController.cs",
+              "RelativeToolTip": "stajApi\\Controllers\\UserApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T08:48:34.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReportApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\ReportApiController.cs",
+              "RelativeDocumentMoniker": "stajApi\\Controllers\\ReportApiController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\ReportApiController.cs",
+              "RelativeToolTip": "stajApi\\Controllers\\ReportApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T11:38:16.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\ProductApiController.cs",
+              "RelativeDocumentMoniker": "stajApi\\Controllers\\ProductApiController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\ProductApiController.cs",
+              "RelativeToolTip": "stajApi\\Controllers\\ProductApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:01:25.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\AuthApiController.cs",
+              "RelativeDocumentMoniker": "stajApi\\Controllers\\AuthApiController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\AuthApiController.cs",
+              "RelativeToolTip": "stajApi\\Controllers\\AuthApiController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAqwLsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T09:46:13.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "staj\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "staj\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:48:11.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "staj\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "staj\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:48:04.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "staj\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T20:05:56.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MonthlySales.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Report\\MonthlySales.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Report\\MonthlySales.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Report\\MonthlySales.cshtml",
+              "RelativeToolTip": "staj\\Views\\Report\\MonthlySales.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T16:56:14.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "staj\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T08:59:13.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "staj\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T08:48:34.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "staj\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T08:44:19.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "staj\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T09:00:59.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Order\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "staj\\Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T09:38:37.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "staj\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T09:03:15.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "staj\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T07:19:42.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ControlPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Home\\ControlPanel.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Home\\ControlPanel.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Home\\ControlPanel.cshtml",
+              "RelativeToolTip": "staj\\Views\\Home\\ControlPanel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T09:03:16.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "staj\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T08:51:05.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Customer\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "staj\\Views\\Customer\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T08:49:58.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "staj\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T08:49:23.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "staj\\Views\\Chat\\Index.cshtml",
+              "ViewState": "AgIAANEAAAAAAAAAAAAAAAgBAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T09:01:43.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "stajApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "stajApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:30:34.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\appsettings.json",
+              "RelativeDocumentMoniker": "stajApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\appsettings.json",
+              "RelativeToolTip": "stajApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T08:44:13.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "stajApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\appsettings.Development.json",
+              "RelativeToolTip": "stajApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T13:09:12.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ornek.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\ornek.cs",
+              "RelativeDocumentMoniker": "stajApi\\Controllers\\ornek.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Controllers\\ornek.cs",
+              "RelativeToolTip": "stajApi\\Controllers\\ornek.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T19:23:59.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "staj\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T19:37:53.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "stajApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "stajApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T13:18:00.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "stajApi.http",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\stajApi.http",
+              "RelativeDocumentMoniker": "stajApi\\stajApi.http",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\stajApi.http",
+              "RelativeToolTip": "stajApi\\stajApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-21T13:16:23.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "stajApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\stajApi.csproj",
+              "RelativeDocumentMoniker": "stajApi\\stajApi.csproj",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\stajApi.csproj",
+              "RelativeToolTip": "stajApi\\stajApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-06T16:07:18.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "stajApi\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "stajApi\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T11:59:46.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "stajApi\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\Order.cs",
+              "RelativeToolTip": "stajApi\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:46:14.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "stajApi\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\Customer.cs",
+              "RelativeToolTip": "stajApi\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:38:08.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MonthlyReportDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Dtos\\MonthlyReportDto.cs",
+              "RelativeDocumentMoniker": "stajApi\\Dtos\\MonthlyReportDto.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Dtos\\MonthlyReportDto.cs",
+              "RelativeToolTip": "stajApi\\Dtos\\MonthlyReportDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:49:23.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "YearlyReportDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Dtos\\YearlyReportDto.cs",
+              "RelativeDocumentMoniker": "stajApi\\Dtos\\YearlyReportDto.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Dtos\\YearlyReportDto.cs",
+              "RelativeToolTip": "stajApi\\Dtos\\YearlyReportDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:49:43.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "stajApi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "stajApi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAUwPkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T17:09:13.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "stajApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\User.cs",
+              "RelativeToolTip": "stajApi\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T08:20:13.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "stajApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\Product.cs",
+              "RelativeToolTip": "stajApi\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:46:23.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "stajApi\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "stajApi\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:46:19.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "stajApi\\Data\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "stajApi\\Data\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:46:41.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "staj\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "staj\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T16:56:21.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\User.cs",
+              "RelativeDocumentMoniker": "staj\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\User.cs",
+              "RelativeToolTip": "staj\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:54:19.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "staj\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\Product.cs",
+              "RelativeToolTip": "staj\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:54:15.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "staj\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "staj\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:54:08.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "staj\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\Order.cs",
+              "RelativeToolTip": "staj\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:54:04.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "staj\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Models\\Customer.cs",
+              "RelativeToolTip": "staj\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T08:19:23.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Program.cs",
+              "RelativeDocumentMoniker": "staj\\Program.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\Program.cs",
+              "RelativeToolTip": "staj\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T08:37:44.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\appsettings.json",
+              "RelativeDocumentMoniker": "staj\\appsettings.json",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\staj\\appsettings.json",
+              "RelativeToolTip": "staj\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-14T08:37:42.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20250714081607_ekle.cs",
+              "DocumentMoniker": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Migrations\\20250714081607_ekle.cs",
+              "RelativeDocumentMoniker": "stajApi\\Migrations\\20250714081607_ekle.cs",
+              "ToolTip": "C:\\Users\\Eda Ergin\\source\\repos\\staj\\stajApi\\Migrations\\20250714081607_ekle.cs",
+              "RelativeToolTip": "stajApi\\Migrations\\20250714081607_ekle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T08:16:07.972Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+﻿@model stajApi.Models.Product
+
+@{
+    ViewData["Title"] = "Ürün Güncelle";
+}
+
+<div class="container mt-5">
+<div class="text-center bg-light py-4 rounded shadow mb-4">
+    <h2 class="m-0 fw-bold fs-3 text-primary">
+        <i class="bi bi-box-seam-fill me-2"></i>Ürünü Güncelle
+    </h2>
+    <p class="text-muted mt-2 mb-0">Yeni ürün bilgilerini değiştirin ve güncelleyin.</p>
+</div>
+</div>
+<form asp-action="Edit" method="post" enctype="multipart/form-data" class="container" style="max-width: 500px;">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label for="Name" class="form-label">Ürün Adı</label>
+        <input type="text" asp-for="Name" class="form-control" placeholder="Ürün adını girin" required />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Price" class="form-label">Fiyat</label>
+        <input type="number" asp-for="Price" step="0.01" class="form-control" placeholder="Ürün fiyatını girin" required />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Stock" class="form-label">Stok</label>
+        <input type="number" asp-for="Stock" class="form-control" placeholder="Stok miktarını girin" required />
+        <span asp-validation-for="Stock" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Mevcut Ürün Görseli</label><br />
+        @if (Model.ImageData != null)
+        {
+            var base64 = Convert.ToBase64String(Model.ImageData);
+            <img src="data:image/png;base64,@base64" width="150" height="150" style="object-fit:contain; border:1px solid #ccc; padding:5px;" />
+        }
+        else
+        {
+            <span class="text-muted">Yüklü görsel yok</span>
+        }
+    </div>
+
+    <div class="mb-3">
+        <label for="Image" class="form-label">Yeni Ürün Görseli (seçersen eskiyi değiştirir)</label>
+        <input type="file" name="Image" class="form-control" accept="image/*" />
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary btn-lg">💾 Güncelle</button>
+    </div>
+</form>
+
+<style>
+    form.container {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

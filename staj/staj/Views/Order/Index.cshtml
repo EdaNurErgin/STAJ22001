@@ -1,0 +1,96 @@
+﻿@model List<stajApi.Models.Order>
+
+@{
+    ViewData["Title"] = "Sipariş Listesi";
+}
+🛒
+
+<div class="container mt-5">
+    @* <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold text-primary">📦 Sipariş Listesi</h2>
+    </div> *@
+    <div class="text-center bg-light py-4 rounded shadow mb-4">
+        <h2 class="m-0 fw-bold fs-3 text-primary">
+            <i class="l me-2"></i>🛒 Sipariş Listesi
+        </h2>
+        <p class="text-muted mt-2 mb-0">Mevcut siparişeri buradan görüntüleyebilirsiniz.</p>
+    </div>
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-warning text-center">
+            Henüz kayıtlı sipariş bulunmamaktadır.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive shadow-sm rounded">
+            <table class="table table-hover align-middle bg-white">
+                <thead class="table-light text-center">
+                    <tr>
+                        <th class="text-nowrap">🆔 Sipariş ID</th>
+                        <th class="text-nowrap">👤 Kullanıcı</th>
+                        <th class="text-nowrap">👥 Müşteri</th>
+                        <th class="text-nowrap">⏳ Durum</th>
+                        <th class="text-center text-nowrap">⚙️ İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    @foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.Id</td>
+                            <td>@order.User?.Username</td>
+                            <td>@order.Customer?.FullName</td>
+                            <td>
+                                @if (order.IsCompleted)
+                                {
+                                    <span class="badge bg-success">Tamamlandı</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-warning text-dark">Bekliyor</span>
+                                }
+                            </td>
+                            <td>
+                                <a href="@Url.Action("Details", "Order", new { id = order.Id })"
+                                   class="btn btn-sm btn-outline-info me-1">
+                                    📄 Detaylar
+                                </a>
+                                @if (!order.IsCompleted)
+                                {
+                                    <a href="@Url.Action("CompleteOrder", "Order", new { id = order.Id })"
+                                       class="btn btn-sm btn-outline-success">
+                                        ✔️ Tamamla
+                                    </a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+<style>
+    h2 {
+        letter-spacing: 1px;
+    }
+
+    table thead th {
+        font-weight: 600;
+    }
+
+    table tbody tr:hover {
+        background-color: rgba(0, 123, 255, 0.05);
+    }
+
+    .btn-outline-info, .btn-outline-success {
+        border-width: 1.5px;
+    }
+
+    .badge {
+        font-size: 0.9rem;
+        padding: 0.5em 0.75em;
+    }
+</style>

@@ -1,0 +1,70 @@
+html {
+  font-size: 14px;
+
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+
+
+
+/*#containerbody {*/
+    /*  min-height: 100vh;
+    background: url(../images/tgh.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0rem;
+    min-width:cover;
+    display: flex;
+    align-items: center;*/
+
+    /*background-color: blue;
+    min-height: 100vh;
+    background: url(../images/tgh.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0rem;
+    min-width: cover;
+    display: flex;
+    align-items: center;*/
+    /*opacity: 0.5;*/ /* 0 tam saydam - 1 tam opak */
+    /*z-index: -1;
+   
+}*/
+
+
+    #containerbody {
+        position: relative;
+        min-height: 100vh;
+        overflow: hidden;
+    }
+
+    #containerbody::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url(../images/tgh.webp) no-repeat center center;
+        background-size: cover;
+        opacity: 0.5; /* arka plan resmi saydam olur */
+        z-index: -1;
+    }

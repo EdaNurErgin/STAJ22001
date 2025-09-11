@@ -1,0 +1,106 @@
+﻿@model List<stajApi.Models.Customer>
+
+@{
+    ViewData["Title"] = "Müşteri Listesi";
+}
+
+<div class="container mt-5">
+    <!-- Başlık -->
+    <div class="text-center bg-light py-4 rounded shadow mb-4">
+        <h2 class="m-0 fw-bold fs-3 text-primary">
+            👥 Müşteri Listesi
+        </h2>
+        <p class="text-muted mt-2 mb-0">Sisteme kayıtlı tüm müşterileri buradan görüntüleyebilirsiniz.</p>
+    </div>
+
+    <!-- Müşteri Yoksa -->
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-light border text-center py-4 shadow-sm">
+            <h5 class="text-muted mb-0">🚫 Henüz kayıtlı müşteri bulunmamaktadır.</h5>
+        </div>
+    }
+    else
+    {
+        <!-- Müşteri Tablosu -->
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle m-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="text-nowrap">👤 Ad Soyad</th>
+                                <th class="text-nowrap">📞 Telefon</th>
+                                <th class="text-nowrap">📦 Teslimat Adresi</th>
+                                <th class="text-nowrap">💳 Fatura Adresi</th>
+                                <th class="text-center text-nowrap">⚙️ İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var customer in Model)
+                            {
+                                <tr>
+                                    <td>@customer.FullName</td>
+                                    <td>@customer.PhoneNumber</td>
+                                    <td>@customer.ShippingAddress</td>
+                                    <td>@customer.BillingAddress</td>
+                                    <td class="text-center">
+                                        <div class="btn-group" role="group">
+                                            <a href="@Url.Action("Edit", "Customer", new { id = customer.Id })"
+                                               class="btn btn-sm btn-outline-primary" title="Düzenle">
+                                                ✏️
+                                            </a>
+                                            <a href="@Url.Action("Delete", "Customer", new { id = customer.Id })"
+                                               class="btn btn-sm btn-outline-danger"
+                                               onclick="return confirm('Bu müşteriyi silmek istediğinize emin misiniz?');"
+                                               title="Sil">
+                                                🗑️
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- Müşteri Ekle Butonu -->
+    <div class="text-end mt-4">
+        <a class="btn btn-success btn-lg shadow-sm" href="@Url.Action("Create", "Customer")">
+            ➕ Yeni Müşteri Ekle
+        </a>
+    </div>
+</div>
+
+<style>
+    h2 {
+        letter-spacing: 1px;
+    }
+
+    .card {
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    table thead th {
+        font-weight: 600;
+    }
+
+    table tbody tr:nth-child(even) {
+        background-color: #f8f9fa;
+    }
+
+    table tbody tr:hover {
+        background-color: #e9f5ff;
+    }
+
+    .btn-outline-primary,
+    .btn-outline-danger {
+        border-width: 1.5px;
+        padding: 0.3rem 0.6rem;
+        font-size: 0.9rem;
+    }
+</style>

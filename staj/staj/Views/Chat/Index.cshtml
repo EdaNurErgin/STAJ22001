@@ -1,0 +1,280 @@
+﻿@{
+    ViewData["Title"] = "Mesajlaşma";
+}
+<style>
+    .list-group-item.active {
+        background-color: #0d6efd;
+        color: white;
+        font-weight: 500;
+    }
+
+    .user-card {
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 8px;
+    }
+
+        .user-card:hover {
+            background-color: #f0f0f0;
+        }
+
+        .user-card.active {
+            background-color: #0d6efd;
+            color: white;
+            font-weight: bold;
+            opacity: 0.6;
+        }
+
+            .user-card.active .avatar {
+                background-color: white;
+                color: #0d6efd;
+            }
+
+    .avatar {
+        font-weight: bold;
+        font-size: 18px;
+        background-color: pink;
+    }
+
+    #chatHeaderName {
+        font-size: 1.1rem;
+    }
+
+    #chatHeaderStatus {
+        font-size: 0.8rem;
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="bg-white rounded shadow p-3 h-100 overflow-auto">
+                <h5 class="text-center">Kullanıcılar</h5>
+                <div id="userList" class="list-group"></div>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <div class="bg-white rounded shadow p-4 d-flex flex-column" style="height: 600px;">
+                <div class="d-flex align-items-center justify-content-between mb-3 border-bottom pb-2">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-chat-dots-fill fs-4 text-primary me-2"></i>
+                        <div>
+                            <div class="fw-bold" id="chatHeaderName">Sohbet</div>
+                            <small class="text-muted" id="chatHeaderStatus">Çevrimiçi</small>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <i class="bi bi-three-dots-vertical text-secondary fs-5 dropdown-toggle" role="button" data-bs-toggle="dropdown"></i>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item text-danger" href="#" id="deleteMessagesBtn"><i class="bi bi-trash me-2"></i>Mesajları Sil</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="chatArea" class="border rounded p-3 mb-3 overflow-auto flex-grow-1" style="background-color: #f8f9fa;"></div>
+
+                <div class="input-group">
+                    <input type="text" id="messageInput" class="form-control" placeholder="Mesaj yaz..." />
+                    <button id="sendBtn" class="btn btn-primary">
+                        <i class="bi bi-send-fill"></i> Gönder
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+<script>
+    const userId = parseInt("@(ViewBag.UserId ?? 0)");
+    const userName = "@(ViewBag.UserName ?? "Bilinmeyen")";
+    const userRole = "@(ViewBag.UserRole ?? "User")";
+
+    let selectedUserId = null;
+    let selectedUserName = "";
+
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("http://localhost:5255/messagehub", { withCredentials: true })
+        .build();
+
+    connection.start().then(() => {
+        console.log("✅ SignalR bağlantısı kuruldu");
+
+        connection.on("ReceiveMessage", (msg) => {
+            const relevant =
+                (msg.senderId === selectedUserId && msg.receiverId === userId) ||
+                (msg.senderId === userId && msg.receiverId === selectedUserId);
+
+            if (relevant) {
+                appendMessage(msg);
+            }
+
+            loadUserList();
+        });
+
+        loadUserList();
+    }).catch(err => console.error("❌ SignalR bağlantı hatası:", err));
+
+    document.getElementById("sendBtn").addEventListener("click", sendMessage);
+    document.getElementById("messageInput").addEventListener("keypress", (e) => {
+        if (e.key === "Enter") {
+            sendMessage();
+            e.preventDefault();
+        }
+    });
+
+    document.getElementById("deleteMessagesBtn").addEventListener("click", () => {
+        if (!selectedUserId) return;
+
+        if (confirm(`${selectedUserName} ile olan tüm mesajları silmek istediğinize emin misiniz?`)) {
+            const senderId = userRole === "User" ? userId : selectedUserId;
+            const receiverId = userRole === "User" ? selectedUserId : userId;
+
+            fetch(`http://localhost:5255/api/MessageApi/delete-conversation?senderId=${senderId}&receiverId=${receiverId}`, {
+                method: "DELETE"
+            })
+            .then(res => {
+                if (res.ok) {
+                    document.getElementById("chatArea").innerHTML = "";
+                } else {
+                    alert("Mesajlar silinemedi.");
+                }
+            });
+        }
+    });
+
+    function loadUserList() {
+        const apiUrl = userRole === "User"
+            ? `http://localhost:5255/api/MessageApi/customers-with-messages?userId=${userId}`
+            : `http://localhost:5255/api/MessageApi/users-with-messages?customerId=${userId}`;
+
+        fetch(apiUrl)
+            .then(res => res.json())
+            .then(data => {
+                const userList = document.getElementById("userList");
+                userList.innerHTML = "";
+
+                if (data.length === 0) {
+                    const info = document.createElement("div");
+                    info.className = "text-muted text-center p-2";
+                    info.textContent = "Henüz mesaj atan kullanıcı yok.";
+                    userList.appendChild(info);
+                    return;
+                }
+
+                data.forEach((user, index) => {
+                    const btn = document.createElement("div");
+                    btn.className = "user-card list-group-item list-group-item-action d-flex align-items-center";
+                    btn.innerHTML = `
+                        <div class="avatar rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                            ${user.senderName?.charAt(0).toUpperCase() || "?"}
+                        </div>
+                        <div class="user-info">
+                            <strong>${user.senderName}</strong>
+                        </div>
+                    `;
+                    btn.onclick = () => {
+                        document.querySelectorAll('#userList .user-card').forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                        selectedUserId = user.senderId;
+                        selectedUserName = user.senderName;
+                        loadConversation();
+                        document.getElementById("chatHeaderName").textContent = selectedUserName;
+                    };
+                    userList.appendChild(btn);
+
+                    if (index === 0 && !selectedUserId) {
+                        btn.click();
+                    }
+                });
+            });
+    }
+
+    function loadConversation() {
+        if (!selectedUserId) return;
+
+        const senderId = userRole === "User" ? userId : selectedUserId;
+        const receiverId = userRole === "User" ? selectedUserId : userId;
+
+        document.getElementById("chatHeaderName").textContent = selectedUserName;
+
+        fetch(`http://localhost:5255/api/MessageApi/is-online/${selectedUserId}`)
+            .then(res => res.json())
+            .then(statusData => {
+                document.getElementById("chatHeaderStatus").textContent = statusData.isOnline ? "Çevrimiçi" : "Çevrimdışı";
+            });
+
+        fetch(`http://localhost:5255/api/MessageApi/conversation?senderId=${senderId}&receiverId=${receiverId}`)
+            .then(res => res.json())
+            .then(data => {
+                const chatArea = document.getElementById("chatArea");
+                chatArea.innerHTML = "";
+                data.forEach(m => appendMessage(m));
+            });
+    }
+
+    function sendMessage() {
+        const messageInput = document.getElementById("messageInput");
+        const message = messageInput.value.trim();
+        if (!message || !selectedUserId) return;
+
+        const payload = {
+            senderId: userId,
+            senderRole: userRole,
+            receiverId: selectedUserId,
+            receiverRole: userRole === "User" ? "Customer" : "User",
+            message: message
+        };
+
+        fetch("http://localhost:5255/api/MessageApi", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+        })
+            .then(res => res.ok ? res.json() : Promise.reject("Mesaj gönderilemedi"))
+            .then(data => {
+                messageInput.value = "";
+                appendMessage({
+                    senderId: userId,
+                    senderName: userName,
+                    receiverId: selectedUserId,
+                    receiverName: selectedUserName,
+                    message: message
+                });
+            })
+            .catch(err => console.error(err));
+    }
+
+    function appendMessage(msg) {
+        const chatArea = document.getElementById("chatArea");
+        const wrapper = document.createElement("div");
+        wrapper.classList.add("mb-2", "d-flex");
+
+        const isMine = msg.senderId === userId;
+        wrapper.classList.add(isMine ? "justify-content-end" : "justify-content-start");
+
+        const bubble = document.createElement("div");
+        bubble.classList.add("p-2", "rounded", "px-3", "shadow-sm");
+        bubble.style.maxWidth = "70%";
+        bubble.style.backgroundColor = isMine ? "#0d6efd" : "#e2e3e5";
+        bubble.style.color = isMine ? "white" : "#333";
+        bubble.style.wordBreak = "break-word";
+        bubble.style.textAlign = "left";
+
+        const senderName = msg.senderName || (isMine ? userName : selectedUserName);
+
+        bubble.innerHTML = `
+            <div class="fw-semibold small text-muted mb-1">${senderName}</div>
+            <div>${msg.message}</div>
+        `;
+
+        wrapper.appendChild(bubble);
+        chatArea.appendChild(wrapper);
+        chatArea.scrollTop = chatArea.scrollHeight;
+    }
+</script>
