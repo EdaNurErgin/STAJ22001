@@ -1,4 +1,4 @@
-# staj & stajApi & untitled7 — Proje Rehberi (Güncellenmiş)
+# staj & stajApi & untitled7 — Proje Rehberi 
 
 Bu depo **iki .NET 8** projesi ve bir **Android istemcisi** içerir:
 
