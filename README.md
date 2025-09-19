@@ -1,10 +1,10 @@
-# staj & stajApi & untitled7 — Proje Rehberi 
+# staj & stajApi & MobilCustomer — Proje Rehberi 
 
 Bu depo **iki .NET 8** projesi ve bir **Android istemcisi** içerir:
 
 * **staj**: ASP.NET Core **MVC** tabanlı yönetim paneli (web arayüzü)
 * **stajApi**: ASP.NET Core **Web API** + **SignalR** (gerçek zamanlı mesajlaşma)
-* **untitled7**: **Android** (Kotlin/Java) istemci (opsiyonel)
+* ** MobilCustomer**: **Android** (Flutter) istemci (opsiyonel)
 
 Tüm .NET projeleri **Entity Framework Core** ile çalışır ve aynı çözüm (`staj.sln`) altındadır.
 
@@ -37,7 +37,7 @@ staj.sln
 │
 ├─ staj/            # Admin paneli (MVC: Controllers, Views, wwwroot)
 ├─ stajApi/         # API + SignalR (Controllers, Data, Hubs, Migrations, Dtos)
-└─ untitled7/       # Android istemci (mobil uygulama)
+└─  MobilCustomer/       # Android istemci (mobil uygulama)
 ```
 
 > Örnek konum:
@@ -195,7 +195,7 @@ curl -X POST \
 
 ---
 
-## Android Uygulaması (untitled7)
+## Android Uygulaması ( MobilCustomer)
 
 **Base URL (Emulator):** `http://10.0.2.2:<api_port>`
 **Gerçek cihaz:** `http://<LAN_IP>:<api_port>`
@@ -292,10 +292,10 @@ obj/
 **/secrets.json
 
 # Android
-untitled7/.gradle/
-untitled7/.idea/
-untitled7/build/
-untitled7/local.properties
+ MobilCustomer/.gradle/
+ MobilCustomer/.idea/
+ MobilCustomer/build/
+ MobilCustomer/local.properties
 ```
 
 > **Güvenlik:** `appsettings.json` içinde gerçek **Jwt\:Key** veya üretim bağlantı dizelerini **commit etmeyin**. Development için **User Secrets** kullanın.
