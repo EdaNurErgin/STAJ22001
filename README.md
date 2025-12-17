@@ -33,11 +33,12 @@ Tüm .NET projeleri **Entity Framework Core** ile çalışır ve aynı çözüm 
 ## Dizin Yapısı
 
 ```
-staj.sln
+staj/
 │
 ├─ staj/            # Admin paneli (MVC: Controllers, Views, wwwroot)
 ├─ stajApi/         # API + SignalR (Controllers, Data, Hubs, Migrations, Dtos)
-└─  MobilCustomer/       # Android istemci (mobil uygulama)
+└─
+MobilCustomer/       # Android istemci (mobil uygulama)
 ```
 
 > Örnek konum:
