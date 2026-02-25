@@ -262,6 +262,6 @@ interface ProductService {
 
 ```
 
-> **Güvenlik:** `appsettings.json` içinde gerçek **Jwt\:Key** veya üretim bağlantı dizelerini **commit etmeyin**. Development için **User Secrets** kullanın.
+
 
 ---
