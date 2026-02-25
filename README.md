@@ -24,8 +24,8 @@ Tüm .NET projeleri **Entity Framework Core** ile çalışır ve aynı çözüm 
 * [SignalR Mesajlaşma](#signalr-mesajlaşma)
 * [Android Uygulaması (untitled7)](#android-uygulaması-untitled7)
 * [Sorun Giderme](#sorun-giderme)
-* [Yararlı Komutlar](#yararlı-komutlar)
-* [.gitignore İpuçları](#gitignore-ipuçları)
+
+
 
 
 ---
@@ -41,8 +41,7 @@ staj/
 MobilCustomer/       # Android istemci (mobil uygulama)
 ```
 
-> Örnek konum:
-> `C:\Users\Eda Ergin\source\repos\staj\` altında `staj/`, `stajApi/`, `untitled7/` klasörleri yan yana.
+
 
 ---
 
@@ -260,43 +259,7 @@ interface ProductService {
 
 ---
 
-## Yararlı Komutlar
 
-```bash
-# EF Core
-cd stajApi
- dotnet ef migrations add <MigrationAdi>
- dotnet ef database update
-
-# Hot reload
- dotnet watch run
-```
-
----
-
-## .gitignore İpuçları
-
-* Kök klasörde aşağıdaki dosya/klasörleri **ignore** edin:
-
-```
-# .NET
-bin/
-obj/
-
-# Kullanıcı/IDE
-.vscode/
-*.user
-*.suo
-
-# Gizli
-**/appsettings.*.local.json
-**/secrets.json
-
-# Android
- MobilCustomer/.gradle/
- MobilCustomer/.idea/
- MobilCustomer/build/
- MobilCustomer/local.properties
 ```
 
 > **Güvenlik:** `appsettings.json` içinde gerçek **Jwt\:Key** veya üretim bağlantı dizelerini **commit etmeyin**. Development için **User Secrets** kullanın.
